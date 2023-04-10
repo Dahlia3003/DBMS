@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DBMS_FINAL_PROJECT.QL_KHO
+namespace DBMS_FINAL_PROJECT.KhuyenMai
 {
-    public partial class Form1 : Form
+    public partial class KhuyenMai : Form
     {
-        public Form1()
+        public KhuyenMai()
         {
             InitializeComponent();
         }

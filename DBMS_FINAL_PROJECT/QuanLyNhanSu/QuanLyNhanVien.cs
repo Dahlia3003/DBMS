@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DBMS_FINAL_PROJECT.QL_KHO
+namespace DBMS_FINAL_PROJECT.QuanLyNhanSu
 {
-    public partial class Form2 : Form
+    public partial class QuanLyNhanVien : Form
     {
-        public Form2()
+        public QuanLyNhanVien()
         {
             InitializeComponent();
         }

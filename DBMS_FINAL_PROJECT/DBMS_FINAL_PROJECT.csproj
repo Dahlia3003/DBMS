@@ -60,6 +60,7 @@
     <Compile Include="QuanLyNhanSu\QuanLyNhanVien.Designer.cs">
       <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="_ConnectSQL\myDB.cs" />
     <EmbeddedResource Include="KhuyenMai\KhuyenMai.resx">
       <DependentUpon>KhuyenMai.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DBMS_FINAL_PROJECT.QL_CALAM;
+using DBMS_FINAL_PROJECT.QL_MONAN;
+using DBMS_FINAL_PROJECT.QL_MONAN.Goi_mon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,12 +14,14 @@ namespace DBMS_FINAL_PROJECT
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        public static string MaNV = "NV001";
+        public static string MaCalam = "230316CH";
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form_ChitietCalam());
         }
     }
 }

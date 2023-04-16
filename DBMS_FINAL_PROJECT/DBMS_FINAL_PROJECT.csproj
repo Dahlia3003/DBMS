@@ -75,36 +75,6 @@
     <Compile Include="QL_CALAM\Form_TaoLichlamviec.Designer.cs">
       <DependentUpon>Form_TaoLichlamviec.cs</DependentUpon>
     </Compile>
-    <Compile Include="QL_HOADON\FORM_QL_HOA_DON.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_HOADON\FORM_QL_HOA_DON.Designer.cs">
-      <DependentUpon>FORM_QL_HOA_DON.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QL_HOADON\FORM_XUAT_HOA_DON.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_HOADON\FORM_XUAT_HOA_DON.Designer.cs">
-      <DependentUpon>FORM_XUAT_HOA_DON.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_DS_LUU_KHO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_DS_LUU_KHO.Designer.cs">
-      <DependentUpon>FORM_DS_LUU_KHO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_SUA_XOA_LUU_KHO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_SUA_XOA_LUU_KHO.Designer.cs">
-      <DependentUpon>FORM_SUA_XOA_LUU_KHO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_THEM_LUU_KHO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_KHO\FORM_THEM_LUU_KHO.Designer.cs">
-      <DependentUpon>FORM_THEM_LUU_KHO.cs</DependentUpon>
-    </Compile>
     <Compile Include="QL_MONAN\Class_Control.cs" />
     <Compile Include="QL_MONAN\Form_QL_MonAn.cs">
       <SubType>Form</SubType>
@@ -123,12 +93,6 @@
     </Compile>
     <Compile Include="QL_MONAN\Goi mon\Form_goi_mon.Designer.cs">
       <DependentUpon>Form_goi_mon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QL_TAICHINH\FORM_QL_TAI_CHINH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QL_TAICHINH\FORM_QL_TAI_CHINH.Designer.cs">
-      <DependentUpon>FORM_QL_TAI_CHINH.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -151,21 +115,6 @@
     <EmbeddedResource Include="QL_CALAM\Form_TaoLichlamviec.resx">
       <DependentUpon>Form_TaoLichlamviec.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QL_HOADON\FORM_QL_HOA_DON.resx">
-      <DependentUpon>FORM_QL_HOA_DON.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QL_HOADON\FORM_XUAT_HOA_DON.resx">
-      <DependentUpon>FORM_XUAT_HOA_DON.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QL_KHO\FORM_DS_LUU_KHO.resx">
-      <DependentUpon>FORM_DS_LUU_KHO.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QL_KHO\FORM_SUA_XOA_LUU_KHO.resx">
-      <DependentUpon>FORM_SUA_XOA_LUU_KHO.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QL_KHO\FORM_THEM_LUU_KHO.resx">
-      <DependentUpon>FORM_THEM_LUU_KHO.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="QL_MONAN\Form_QL_MonAn.resx">
       <DependentUpon>Form_QL_MonAn.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,9 +123,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QL_MONAN\Goi mon\Form_goi_mon.resx">
       <DependentUpon>Form_goi_mon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QL_TAICHINH\FORM_QL_TAI_CHINH.resx">
-      <DependentUpon>FORM_QL_TAI_CHINH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
